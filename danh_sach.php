@@ -9,6 +9,8 @@
         <td>address</td>
         <td>Date of birth</td>
         <td>Gender</td>
+        <td></td>
+        <td></td>
     </tr>
     <?php
         //Mở kết nối đến db
@@ -42,6 +44,12 @@
                     <?php
                         }
                     ?>
+                </td>
+                <td>
+                    <a href="sua.php?id=<?php echo $each['id']?>">Sửa</a>
+                </td>
+                <td>
+                    <a href="xoa.php?id=<?php echo $each['id']?>">Xóa</a>
                 </td>
             </tr>
         <?php
