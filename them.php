@@ -1,3 +1,4 @@
+<?php include_once "header.php";?>
 <form action="them-xu-ly.php" method="post">
     Name: <input type="text" name="name"><br>
     Phone: <input type="text" name="phone"><br>
@@ -8,3 +9,4 @@
     Gender: <input type="radio" name="gender" value="0" checked> Male <input type="radio" name="gender" value="1"> Female <br>
     <button>Add</button>
 </form>
+<?php include_once "footer.php";?>
