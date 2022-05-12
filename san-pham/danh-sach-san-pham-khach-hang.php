@@ -34,12 +34,22 @@
             ?>
             <td>
                 <p>
-                    <img src="../image/<?php echo $each['anh']?>">
+                    <img src="../image/<?php echo $each['anh']?>" width="50px" height="50px">
                 </p>
-                <p><?php echo $each['id'];?></p>
-                <p><?php echo $each['name'];?></p>
-                <p><?php echo $each['price'];?></p>
-                <p><?php echo $each['amount'];?></p>
+                <p>
+                    <?php echo $each['id'];?>
+                </p>
+                <p>
+                    <a href="chi-tiet-san-pham.php?id=<?php echo $each['id'];?>">
+                        <?php echo $each['name'];?>
+                    </a>
+                </p>
+                <p>
+                    <?php echo $each['price'];?>
+                </p>
+                <p>
+                    <?php echo $each['amount'];?>
+                </p>
             </td>
             <?php 
                     $dem++;
