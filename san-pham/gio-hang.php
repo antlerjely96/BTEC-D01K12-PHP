@@ -65,6 +65,11 @@
                 <button>Cập nhật giỏ hàng</button>
             </td>
         </tr>
+        <tr>
+            <td colspan="7">
+                <a href="thanh_toan.php">Thanh toán</a>
+            </td>
+        </tr>
     </table>
     <a href="danh-sach-san-pham-khach-hang.php">Tiếp tục mua hàng</a>
 </form>
